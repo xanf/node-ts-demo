@@ -24,7 +24,7 @@ app.use((req, res, next) => {
 });
 
 if (app.get('env') === 'development') {
-  app.use((err, req, res, next) => {
+  app.use((err: RequestError, req: express.Request, res: express.Response) => {
     res.status(err.status || 500);
     res.json({
       message: err.message,
@@ -35,7 +35,7 @@ if (app.get('env') === 'development') {
 
 // production error handler
 // no stacktraces leaked to user
-app.use((err, req, res, next) => {
+app.use((err: RequestError, req, res, next) => {
   res.status(err.status || 500);
   res.json({
     message: err.message,
