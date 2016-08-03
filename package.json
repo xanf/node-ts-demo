@@ -12,6 +12,10 @@
     "morgan": "~1.7.0"
   },
   "devDependencies": {
+    "nodemon": "^1.10.0",
+    "ts-node": "^1.2.2",
+    "tslint": "^3.14.0",
+    "tslint-microsoft-contrib": "^2.0.9",
     "typescript": "^1.8.10"
   }
 }
