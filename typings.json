@@ -1,8 +1,14 @@
 {
   "globalDependencies": {
     "body-parser": "registry:dt/body-parser#0.0.0+20160619023215",
+    "debug": "registry:dt/debug#0.0.0+20160317120654",
     "express": "registry:dt/express#4.0.0+20160708185218",
+    "express-jwt": "registry:dt/express-jwt#0.0.0+20160629014920",
     "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20160715232503",
+    "express-unless": "registry:dt/express-unless#0.0.0+20160317120654",
+    "jasmine": "registry:dt/jasmine#2.2.0+20160621224255",
+    "jsonwebtoken": "registry:dt/jsonwebtoken#0.0.0+20160720062725",
+    "lokijs": "registry:dt/lokijs#0.0.0+20160316155526",
     "mime": "registry:dt/mime#0.0.0+20160316155526",
     "morgan": "registry:dt/morgan#1.7.0+20160524142355",
     "node": "registry:dt/node#6.0.0+20160802155038",

@@ -1,10 +1,12 @@
-#!/usr/bin/env node
-
 /**
  * Module dependencies.
  */
 
-var app = require('../build/app');
+const appModule = process.env.NODE_ENV === 'production'
+  ? '../build/app'
+  : '../app'
+;
+var app = require(appModule);
 var debug = require('debug')('ts:server');
 var http = require('http');
 
